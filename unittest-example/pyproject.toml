@@ -1,11 +1,11 @@
 # Specifies what packages are needed to build the project e.g wheel
 [build-system]
-requires = ["setuptools>=61.0"]
+requires = ["setuptools>=61.0", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
 
 # Defines the project properties used to define your package.
 [project]
-name = "unittest-example"
+name = "unittest_example"
 version = "1.0.0"
 authors = [
   { name="Example Author", email="author@example.com" },

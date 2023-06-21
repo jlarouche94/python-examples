@@ -8,4 +8,8 @@ This is more important now that versions differences between python3 have quite 
 `pip install --upgrade tox`
 
 ## Core Components
-
+### setup.py
+setup.py is used by tox to know that there is a package to install. Also any additional values not supported by pyproject.toml will be placed here.
+### pyproject.toml
+### tox.ini
+Tool for automating the process of testing.

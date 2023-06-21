@@ -14,6 +14,7 @@ class InvalidConfiguration(Exception):
 @dataclass
 class ConfigData:
     name: str
+    description: str
 
 
 class Config:
